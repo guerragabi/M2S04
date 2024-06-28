@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background-image: url(./images/breakingbadvan.jpg) ;
+    background-size: cover;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* padding: 2em 25vw; */
+    padding: 2em 25vw 1em 25vw;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-bottom: 100px;
+    margin-right: 60px;
+    /* padding: 100px 10px; */
+    /* margin-right: 40px; */
+    font-weight: lighter;
+}
+
+.ler-mais {
+    color: red;
+    cursor: pointer;
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: row;
+    font-size: 90%;
+}
+
+.poster {
+    /* margin-right: 60px; */
+    width: 318.45px;
+    height: 468.05px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    cursor: pointer;
+    margin: 8px;
+}
+
+#container-eps {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container-eps img {
+    margin: 10px;
+    width: 135px;
+    height: 75px;
+    display: block;
+}
+
+.m-t-14 {
+    margin-top: 14px;
+}
+
+.m-t-28 {
+    margin-top: 28px;
+}
+
+.m-t-56 {
+    margin-top: 30px;
+}
+
+/* .m-t-14 {
+    margin-top: 14px;
+}
+
+.m-t-28 {
+    margin-top: 28px;
+}
+
+.m-t-56 {
+    margin-top: 56px;
+}
+.container-eps {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container-eps img {
+    width: 100%;
+    display: block;
+}
+
+.card-episodio .episodio-title {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-episodios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
